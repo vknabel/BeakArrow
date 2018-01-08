@@ -1,0 +1,27 @@
+{% extends "BASE_README.md.stencil" %}
+
+{% block subtitle %}
+Run functions inside Swift files.
+{% endblock %}
+
+{% block example %}
+```json
+{
+    "name": "SupercoolProject",
+    "version": "1.0.0",
+    "scripts": {
+        "release": {
+            "arrow": "{{github}}",
+            "path": "Scripts/beak.swift",
+            "function": "release"
+        }
+    }
+}
+```
+
+All parameters will be passed to your script.
+```bash
+$ archery release
+# Will execute the release function within Scripts/beak.swift
+```
+{% endblock %}

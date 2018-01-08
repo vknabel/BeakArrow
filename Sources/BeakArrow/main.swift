@@ -10,7 +10,7 @@ struct BeakArrow: Arrow {
     let function: String?
     let cachePath: String?
 
-    func fire(archerfile: Archerfile, arguments: [String]) throws {
+    func fire(archerfile _: Archerfile, arguments: [String]) throws {
         try beak.execute(arguments: [mode ?? "run"]
             + pathArguments()
             + functionArguments()
