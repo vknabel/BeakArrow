@@ -6,17 +6,14 @@ Run functions inside Swift files.
 
 {% block example %}
 ```json
-{
-    "name": "SupercoolProject",
-    "version": "1.0.0",
-    "scripts": {
-        "release": {
-            "arrow": "{{github}}",
-            "path": "Scripts/beak.swift",
-            "function": "release"
-        }
-    }
-}
+name: SupercoolProject
+version: 1.0.0
+scripts:
+  release:
+    arrow: "{{github}}"
+    path: Scripts/beak.swift
+    function: release
+
 ```
 
 All parameters will be passed to your script.

@@ -6,17 +6,14 @@ For more information about Archery itself head to [vknabel/Archery](https://gith
 
 
 ```json
-{
-    "name": "SupercoolProject",
-    "version": "1.0.0",
-    "scripts": {
-        "release": {
-            "arrow": "vknabel/BeakArrow",
-            "path": "Scripts/beak.swift",
-            "function": "release"
-        }
-    }
-}
+name: SupercoolProject
+version: 1.0.0
+scripts:
+  release:
+    arrow: "vknabel/BeakArrow"
+    path: Scripts/beak.swift
+    function: release
+
 ```
 
 All parameters will be passed to your script.
