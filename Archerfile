@@ -3,7 +3,7 @@ name: Beak Arrow
 github: vknabel/BeakArrow
 archery:
   github: vknabel/Archery
-version: 0.1.1
+version: 0.1.2
 apiLevel: 1
 repository: https://github.com/vknabel/BeakArrow
 contributors:
