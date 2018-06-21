@@ -8,8 +8,8 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/vknabel/ArrowKit.git", .branch("master")),
-        .package(url: "https://github.com/yonaskolb/Beak.git", .branch("0.3.5")),
-        .package(url: "https://github.com/kylef/PathKit.git", from: "0.8.0"),
+        .package(url: "https://github.com/yonaskolb/Beak.git", .branch("0.4.0")),
+        .package(url: "https://github.com/kylef/PathKit.git", from: "0.9.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
