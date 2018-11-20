@@ -5,6 +5,12 @@ import PackageDescription
 
 let package = Package(
     name: "BeakArrow",
+    products: [
+        .executable(
+            name: "BeakArrow",
+            targets: ["BeakArrow"]
+        ),
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/vknabel/ArrowKit.git", .branch("master")),
@@ -16,6 +22,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "BeakArrow",
-            dependencies: ["ArrowKit", "BeakCore", "PathKit"]),
+            dependencies: ["ArrowKit", "BeakCore", "PathKit"]
+        ),
     ]
 )
