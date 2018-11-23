@@ -14,8 +14,7 @@ struct BeakArrow: Arrow {
         try beak.execute(arguments: [mode ?? "run"]
             + pathArguments()
             + functionArguments()
-            + arguments.dropFirst(mode == nil && isValid(beakCommand: arguments.first) ? 1 : 0)
-        )
+            + arguments.dropFirst(mode == nil && isValid(beakCommand: arguments.first) ? 1 : 0))
     }
 
     func functionArguments() -> [String] {

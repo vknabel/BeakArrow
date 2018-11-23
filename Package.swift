@@ -14,7 +14,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(url: "https://github.com/vknabel/ArrowKit.git", .branch("master")),
-        .package(url: "https://github.com/yonaskolb/Beak.git", .branch("0.4.0")),
+        .package(url: "https://github.com/yonaskolb/Beak.git", .exact("0.4.0")),
         .package(url: "https://github.com/kylef/PathKit.git", from: "0.9.1"),
     ],
     targets: [
